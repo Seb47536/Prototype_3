@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1020303964609103203}
   - component: {fileID: 3237982493709713590}
+  - component: {fileID: 1102109300219322036}
+  - component: {fileID: 8923247983986721887}
   m_Layer: 0
   m_Name: "Obst\xE1culo"
   m_TagString: Untagged
@@ -45,6 +47,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8daea0f4c7ab1f248be58a9d685d8a23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1102109300219322036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3450326911015667091}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.7998573, z: 3.1629019}
+  m_Center: {x: 0, y: 0.89279574, z: 0.040305376}
+--- !u!54 &8923247983986721887
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3450326911015667091}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8259408855558303877
 GameObject:
   m_ObjectHideFlags: 0
